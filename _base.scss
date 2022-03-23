@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&family=Source+Code+Pro&display=swap');
+
+
+$font-body: 'Source Code Pro', monospace;
+$font-display: 'Commissioner', sans-serif;
+
+$color-primary: #D65A2E;
+$color-black: #191819;
+$color-white:#FFFFFF;
+
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-body;
+    background-color: $color-black;
+    color: $color-white;
+}
