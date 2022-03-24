@@ -1,4 +1,6 @@
-
+body {
+    background-color: $color-black;
+}
 nav,
 nav * {
   display: flex;
@@ -33,13 +35,13 @@ nav * {
         height: 100%;
         text-decoration: none;
         color: white;
+        :hover {
+            color: $color-primary;
+        }
     }
 }
 
 
-a:hover {
-    color: $color-primary;
-}
 
 header {
     font-family: $font-display;
@@ -102,12 +104,41 @@ header {
         width: 50%;
         margin: 0 5px;
     }
-}
 
-.experience__title{
+    &__nology {
+        display: flex;
+        flex-direction: column;
+        align-items: space-evenly;
+    }
+    &__stack {
+        display: flex;
+        flex-direction: column;
+        align-items: space-evenly;
+    }
+    &__button {
+        display: block;
+        width: 160px;
+        font-family: $font-body;
+        background-color: $color-primary;
+        color: $color-black;
+        text-align: center;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 10px;
+        text-decoration: none;
+        }
+    a:hover {
+        color : $color-white;
+    }
+        
+}
+.experience__title {
     width: 90%;
     margin-bottom: 20px;
+    margin-left: 10px;
 }
+
 
 .projectA {
     display: flex;

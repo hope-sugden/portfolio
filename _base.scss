@@ -9,10 +9,12 @@ $color-black: #191819;
 $color-white:#FFFFFF;
 
 * {
-    margin: auto;
     padding: 0;
     box-sizing: border-box;
     font-family: $font-body;
-    background-color: $color-black;
     color: $color-white;
 }
+
+
+$mobile-screen: 320px;
+$scren-width:90%;
