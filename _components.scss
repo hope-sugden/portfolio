@@ -50,7 +50,7 @@ header {
 }
 
 .background {
-    background-image: url(./unsplash_oCdVtGFeDC0.png);
+    background-image: url(./images/plane-view.png);
     width: 100%;
 }
 
@@ -127,4 +127,67 @@ header {
 .projects__title {
     width: 90%;
     margin-bottom: 20px;    
+}
+
+.projectB {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+    &__img {
+        width: 50%;
+    }
+    &__text {
+        width: 50%;
+        margin: 0 5px;
+    }
+    
+}
+
+.about__section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.line1 {
+    display: flex;
+    align-items: flex-start;
+    width: 50%;
+    
+}
+
+.line2 {
+    display: flex;
+    width: 50%;
+    
+}
+
+.line3 {
+    display: flex;
+    width: 50%;
+}
+
+.line4 {
+    display: flex;
+    width: 50%;
+}
+
+.line5 {
+    display: flex;
+    width: 50%;
+}
+
+.about__img {
+    width: 10px;
+}
+
+.contact__body {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__links {
+    display: flex;
 }
