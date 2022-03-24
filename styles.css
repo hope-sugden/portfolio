@@ -145,8 +145,44 @@ header {
   width: 50%;
 }
 .projectA__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   width: 50%;
-  margin: 0 5px;
+  margin: 0 20px;
+}
+.projectA__buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.projectA__website {
+  display: block;
+  width: 160px;
+  font-family: "Source Code Pro", monospace;
+  background-color: #D65A2E;
+  color: #191819;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.projectA__code {
+  display: block;
+  width: 160px;
+  font-family: "Source Code Pro", monospace;
+  background-color: #D65A2E;
+  color: #191819;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.projectA a:hover {
+  color: #FFFFFF;
 }
 
 .projects__title {
@@ -164,14 +200,44 @@ header {
   width: 50%;
 }
 .projectB__text {
-  width: 50%;
-  margin: 0 5px;
-}
-
-.about__section {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  justify-content: space-around;
+  width: 50%;
+  margin: 0 20px;
+}
+.projectB__buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.projectB__website {
+  display: block;
+  width: 160px;
+  font-family: "Source Code Pro", monospace;
+  background-color: #D65A2E;
+  color: #191819;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.projectB__code {
+  display: block;
+  width: 160px;
+  font-family: "Source Code Pro", monospace;
+  background-color: #D65A2E;
+  color: #191819;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.projectB a:hover {
+  color: #FFFFFF;
 }
 
 .line1 {
@@ -182,6 +248,7 @@ header {
 
 .line2 {
   display: flex;
+  align-items: flex-end;
   width: 50%;
 }
 
@@ -203,12 +270,29 @@ header {
 .about__img {
   width: 10px;
 }
-
-.contact__body {
+.about__section {
   display: flex;
   flex-direction: column;
 }
 
+.contact__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact__email {
+  width: 5%;
+}
+.contact__linkedin {
+  width: 70%;
+}
+.contact__github {
+  width: 70%;
+}
+.contact__cv {
+  width: 70%;
+}
 .contact__links {
   display: flex;
+  align-items: flex-end;
 }
