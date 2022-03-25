@@ -1,4 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Commissioner&family=Source+Code+Pro&display=swap");
+.about__img {
+  width: 10px;
+}
+.about__section {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.about__line1 {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+.about__line2 {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+}
+.about__line3 {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+.about__line4 {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+}
+.about__line5 {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
 * {
   padding: 0;
   box-sizing: border-box;
@@ -10,83 +44,26 @@ body {
   background-color: #191819;
 }
 
-nav,
-nav * {
+.contact__body {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  font-weight: bold;
 }
-
-.navbar {
-  justify-content: space-between;
-  width: 100%;
-  height: 50px;
-  font-size: 1.25em;
+.contact__email {
+  width: 5%;
 }
-
-#logo {
-  width: 15%;
-  height: 100%;
-  font-family: "Commissioner", sans-serif;
-  color: #D65A2E;
+.contact__linkedin {
+  width: 70%;
 }
-
-#nav-links {
-  width: 50%;
-  height: 100%;
-  justify-content: flex-end;
-  font-family: "Commissioner", sans-serif;
+.contact__github {
+  width: 70%;
 }
-#nav-links a {
-  width: 33%;
-  height: 100%;
-  text-decoration: none;
-  color: white;
+.contact__cv {
+  width: 70%;
 }
-#nav-links a :hover {
-  color: #D65A2E;
-}
-
-header {
-  font-family: "Commissioner", sans-serif;
-  color: #FFFFFF;
-  text-align: center;
-  margin: 300px auto;
-}
-
-.background {
-  background-image: url(./images/plane-view.png);
-  width: 100%;
-}
-
-.profile {
+.contact__links {
   display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.profile__img {
-  width: 20%;
-  margin: 50px;
-}
-.profile__text {
-  margin: 50px;
-  line-height: 50px;
-  text-align: center;
-}
-.profile__text h1 {
-  font-family: "Commissioner", sans-serif;
-  font-size: 100px;
-}
-.profile__text p {
-  color: #D65A2E;
-  font-size: medium;
-}
-.profile__links img {
-  width: 20%;
-  height: 100%;
-  text-decoration: none;
-  color: #D65A2E;
+  align-items: flex-end;
 }
 
 .experience {
@@ -133,6 +110,88 @@ header {
   width: 90%;
   margin-bottom: 20px;
   margin-left: 10px;
+}
+
+nav,
+nav * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.navbar {
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  font-size: 1.25em;
+}
+
+#logo {
+  width: 15%;
+  height: 100%;
+  font-family: "Commissioner", sans-serif;
+  color: #D65A2E;
+}
+
+#nav-links {
+  width: 50%;
+  height: 100%;
+  justify-content: flex-end;
+  font-family: "Commissioner", sans-serif;
+}
+#nav-links a {
+  width: 33%;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+}
+#nav-links a :hover {
+  color: #D65A2E;
+}
+
+header {
+  font-family: "Commissioner", sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 300px auto;
+  flex-grow: 1;
+}
+
+.background {
+  background-image: url(./images/plane-view.png);
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile__img {
+  width: 20%;
+  margin: 50px;
+}
+.profile__text {
+  margin: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.profile__text h1 {
+  font-family: "Commissioner", sans-serif;
+  font-size: 100px;
+}
+.profile__text p {
+  color: #D65A2E;
+  font-size: medium;
+}
+.profile__links img {
+  width: 20%;
+  height: 100%;
+  text-decoration: none;
+  color: #D65A2E;
 }
 
 .projectA {
@@ -238,61 +297,4 @@ header {
 }
 .projectB a:hover {
   color: #FFFFFF;
-}
-
-.line1 {
-  display: flex;
-  align-items: flex-start;
-  width: 50%;
-}
-
-.line2 {
-  display: flex;
-  align-items: flex-end;
-  width: 50%;
-}
-
-.line3 {
-  display: flex;
-  width: 50%;
-}
-
-.line4 {
-  display: flex;
-  width: 50%;
-}
-
-.line5 {
-  display: flex;
-  width: 50%;
-}
-
-.about__img {
-  width: 10px;
-}
-.about__section {
-  display: flex;
-  flex-direction: column;
-}
-
-.contact__body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.contact__email {
-  width: 5%;
-}
-.contact__linkedin {
-  width: 70%;
-}
-.contact__github {
-  width: 70%;
-}
-.contact__cv {
-  width: 70%;
-}
-.contact__links {
-  display: flex;
-  align-items: flex-end;
 }

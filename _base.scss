@@ -14,7 +14,9 @@ $color-white:#FFFFFF;
     font-family: $font-body;
     color: $color-white;
 }
-
+body {
+    background-color: $color-black;
+}
 
 $mobile-screen: 320px;
 $scren-width:90%;

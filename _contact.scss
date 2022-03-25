@@ -1,0 +1,25 @@
+.contact {
+    &__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    &__email {
+        width: 5%;
+    }
+    &__linkedin {
+        width: 70%;
+    }
+    &__github {
+        width: 70%;
+    }
+    &__cv {
+        width: 70%;
+    }
+    &__links {
+        display: flex;
+        align-items: flex-end;
+    }
+}
+
+

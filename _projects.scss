@@ -1,0 +1,108 @@
+.projectA {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+    &__img {
+        width: 50%;
+    }
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 50%;
+        margin: 0 20px;
+    }
+    &__buttons {
+        display: flex;
+        justify-content: space-around;
+    }
+    &__website {
+        display: block;
+        width: 160px;
+        font-family: $font-body;
+        background-color: $color-primary;
+        color: $color-black;
+        text-align: center;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 10px;
+        
+        text-decoration: none;
+    }
+    &__code {
+        display: block;
+        width: 160px;
+        font-family: $font-body;
+        background-color: $color-primary;
+        color: $color-black;
+        text-align: center;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 10px;
+        text-decoration: none;
+    }
+    a:hover {
+        color : $color-white;
+    }
+    
+}
+
+.projects__title {
+    width: 90%;
+    margin-bottom: 20px;    
+}
+
+.projectB {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+    &__img {
+        width: 50%;
+    }
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 50%;
+        margin: 0 20px;
+    }
+    &__buttons {
+        display: flex;
+        justify-content: space-around;
+    }
+    &__website {
+        display: block;
+        width: 160px;
+        font-family: $font-body;
+        background-color: $color-primary;
+        color: $color-black;
+        text-align: center;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 10px;
+        
+        text-decoration: none;
+    }
+    &__code {
+        display: block;
+        width: 160px;
+        font-family: $font-body;
+        background-color: $color-primary;
+        color: $color-black;
+        text-align: center;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 10px;
+        text-decoration: none;
+    }
+    a:hover {
+        color : $color-white;
+    }
+    
+}
