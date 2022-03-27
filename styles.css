@@ -1,35 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Commissioner&family=Source+Code+Pro&display=swap");
 .about__img {
-  width: 10px;
+  width: 5%;
+  height: 72px;
 }
 .about__section {
   display: flex;
   flex-direction: column;
-  width: 50%;
+}
+.about__paragraph {
+  width: 45%;
 }
 .about__line1 {
   display: flex;
-  align-items: flex-start;
+  justify-content: flex-start;
   width: 100%;
 }
 .about__line2 {
   display: flex;
-  align-items: flex-end;
+  justify-content: flex-end;
   width: 100%;
 }
 .about__line3 {
   display: flex;
-  align-items: flex-start;
+  justify-content: flex-start;
   width: 100%;
 }
 .about__line4 {
   display: flex;
-  align-items: flex-end;
+  justify-content: flex-end;
   width: 100%;
 }
 .about__line5 {
   display: flex;
-  align-items: flex-start;
+  justify-content: flex-start;
   width: 100%;
 }
 

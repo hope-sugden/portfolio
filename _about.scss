@@ -1,43 +1,50 @@
 .about {
     
     &__img {
-        width: 10px;
+        width: 5%;
+        height:72px ;
        
     }
     &__section {
         display: flex;
         flex-direction: column;
-        width: 50%;
+    }
+    &__paragraph {
+        width: 45%;
     }
     &__line1 {
         display: flex;
-        align-items: flex-start;
+        justify-content: flex-start;
         width: 100%;
+        
         
     }
     
     &__line2 {
         display: flex;
-        align-items: flex-end;
+        justify-content: flex-end;
         width: 100%;
+        
         
     }
     
     &__line3 {
         display: flex;
-        align-items: flex-start;
+        justify-content: flex-start;
         width: 100%;
+        
     }
     
     &__line4 {
         display: flex;
-        align-items: flex-end;
+        justify-content: flex-end;
         width: 100%;
+        
     }
     
     &__line5 {
         display: flex;
-        align-items: flex-start;
+        justify-content: flex-start;
         width: 100%;
     }
 }
