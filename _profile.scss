@@ -6,6 +6,8 @@
     &__img {
         width: 20%;
         margin: 50px;
+        border-radius: 50%;
+        min-width: 200px;
     }
 
     &__text {
@@ -29,6 +31,14 @@
             height: 100%;
             text-decoration: none;
             color: $color-primary;
+        }
+    }
+}
+@media screen and (max-width:500px) {
+    .profile {
+        flex-direction: column;
+        &__img {
+            width: 96.797px;
         }
     }
 }

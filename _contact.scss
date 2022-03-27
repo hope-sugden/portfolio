@@ -5,16 +5,19 @@
     align-items: center;
     }
     &__email {
-        width: 5%;
+        width: 35px;
     }
     &__linkedin {
-        width: 70%;
+        width: 35px;
+        margin: 10px;
     }
     &__github {
-        width: 70%;
+        width: 35px;
+        margin: 10px;
     }
     &__cv {
-        width: 70%;
+        width: 35px;
+        margin: 10px;
     }
     &__links {
         display: flex;

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Commissioner&family=Source+Code+Pro&display=swap");
 .about__img {
-  width: 5%;
+  width: 56.65px;
   height: 72px;
 }
 .about__section {
@@ -36,6 +36,31 @@
   width: 100%;
 }
 
+@media screen and (max-width: 600px) {
+  .about__paragraph {
+    width: 70%;
+  }
+
+  .about__line1 {
+    justify-content: center;
+  }
+
+  .about__line2 {
+    justify-content: center;
+  }
+
+  .about__line3 {
+    justify-content: center;
+  }
+
+  .about__line4 {
+    justify-content: center;
+  }
+
+  .about__line5 {
+    justify-content: center;
+  }
+}
 * {
   padding: 0;
   box-sizing: border-box;
@@ -53,16 +78,19 @@ body {
   align-items: center;
 }
 .contact__email {
-  width: 5%;
+  width: 35px;
 }
 .contact__linkedin {
-  width: 70%;
+  width: 35px;
+  margin: 10px;
 }
 .contact__github {
-  width: 70%;
+  width: 35px;
+  margin: 10px;
 }
 .contact__cv {
-  width: 70%;
+  width: 35px;
+  margin: 10px;
 }
 .contact__links {
   display: flex;
@@ -115,6 +143,25 @@ body {
   margin-left: 10px;
 }
 
+@media screen and (max-width: 710px) {
+  .experience {
+    flex-direction: column;
+  }
+
+  .experience__img {
+    width: 100%;
+    margin: 0 5px;
+  }
+
+  .experience__text {
+    width: 100%;
+    margin: 0 5px;
+  }
+
+  .experience__button {
+    margin-bottom: 20px;
+  }
+}
 nav,
 nav * {
   display: flex;
@@ -128,6 +175,7 @@ nav * {
   width: 100%;
   height: 50px;
   font-size: 1.25em;
+  position: fixed;
 }
 
 #logo {
@@ -153,6 +201,16 @@ nav * {
   color: #D65A2E;
 }
 
+@media screen and (max-width: 840px) {
+  #navLinks {
+    flex-direction: column;
+    margin-top: 120px;
+  }
+
+  #logo {
+    margin-left: 50px;
+  }
+}
 header {
   font-family: "Commissioner", sans-serif;
   color: #FFFFFF;
@@ -162,13 +220,47 @@ header {
 }
 
 .background {
-  background-image: url(./images/plane-view.png);
-  width: 100%;
-  height: 635px;
+  background-size: cover;
+  background-position: center center;
   display: flex;
   flex-direction: column;
 }
 
+@media screen and (max-width: 1440px) {
+  .background {
+    background-image: url(./images/plane-view-laptopL.png);
+  }
+}
+@media screen and (max-width: 1024px) {
+  .background {
+    background-image: url(./images/plane-view-laptop.png);
+  }
+}
+@media screen and (max-width: 768px) {
+  .background {
+    background-image: url(./images/plane-view-tablet.png);
+  }
+}
+@media screen and (max-width: 425px) {
+  .background {
+    background-image: url(./images/plane-view-mobileL.png);
+  }
+}
+@media screen and (max-width: 375px) {
+  .background {
+    background-image: url(./images/plane-view-mobileM.png);
+  }
+}
+@media screen and (max-width: 320px) {
+  .background {
+    background-image: url(./images/plane-view-mobileS.png);
+  }
+}
+@media screen and (min-width: 1440px) {
+  .background {
+    background-image: url(./images/plane-view-max.png);
+  }
+}
 .profile {
   display: flex;
   align-items: center;
@@ -177,6 +269,8 @@ header {
 .profile__img {
   width: 20%;
   margin: 50px;
+  border-radius: 50%;
+  min-width: 200px;
 }
 .profile__text {
   margin: 50px;
@@ -198,6 +292,14 @@ header {
   color: #D65A2E;
 }
 
+@media screen and (max-width: 500px) {
+  .profile {
+    flex-direction: column;
+  }
+  .profile__img {
+    width: 96.797px;
+  }
+}
 .projectA {
   display: flex;
   justify-content: space-between;
@@ -301,4 +403,71 @@ header {
 }
 .projectB a:hover {
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 1000px) {
+  .projectA__buttons {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 710px) {
+  .projectA {
+    flex-direction: column;
+  }
+
+  .projectA__img {
+    width: 100%;
+    margin: 0 5px;
+    margin-bottom: 20px;
+  }
+
+  .projectA__text {
+    width: 100%;
+    margin: 0 5px;
+  }
+
+  .projectA__buttons {
+    margin-bottom: 20px;
+    align-items: center;
+  }
+
+  .projectA__website {
+    width: 140px;
+    font-size: small;
+  }
+
+  .projectA__code {
+    width: 140px;
+    font-size: small;
+  }
+
+  .projectB {
+    flex-direction: column-reverse;
+  }
+
+  .projectB__img {
+    width: 100%;
+    margin: 0 5px;
+    margin-bottom: 20px;
+  }
+
+  .projectB__text {
+    width: 100%;
+    margin: 0 5px;
+  }
+
+  .projectB__buttons {
+    margin-bottom: 20px;
+    align-items: center;
+  }
+
+  .projectB__website {
+    width: 140px;
+    font-size: small;
+  }
+
+  .projectB__code {
+    width: 140px;
+    font-size: small;
+  }
 }

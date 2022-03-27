@@ -1,7 +1,7 @@
 .about {
     
     &__img {
-        width: 5%;
+        width: 56.65px;
         height:72px ;
        
     }
@@ -46,5 +46,26 @@
         display: flex;
         justify-content: flex-start;
         width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .about__paragraph {
+        width: 70%;
+    }
+    .about__line1 {
+        justify-content: center;
+    }
+    .about__line2 {
+        justify-content: center;
+    }
+    .about__line3 {
+        justify-content: center;
+    }
+    .about__line4 {
+        justify-content: center;
+    }
+    .about__line5 {
+        justify-content: center;
     }
 }
