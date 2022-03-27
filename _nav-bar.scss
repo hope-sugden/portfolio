@@ -22,7 +22,7 @@ nav * {
   color: $color-primary;
 }
 
-#nav-links {
+#navLinks {
   width: 50%;
   height: 100%;
   justify-content: flex-end;
@@ -33,10 +33,12 @@ nav * {
         height: 100%;
         text-decoration: none;
         color: white;
-        :hover {
-            color: $color-primary;
-        }
+        
     }
+    a:hover {
+        color: $color-primary;
+    }
+
 }
 
 
@@ -52,7 +54,8 @@ header {
 
 .background {
     background-image: url(./images/plane-view.png);
-    width: 100vw;
+    width: 100%;
+    height: 635px;
     display: flex;
     flex-direction: column;
 }
