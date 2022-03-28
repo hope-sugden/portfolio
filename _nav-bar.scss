@@ -21,6 +21,10 @@ nav * {
   height: 100%;
   font-family: $font-display;
   color: $color-primary;
+  text-decoration: none;
+}
+#logo:hover {
+  color: $color-white;
 }
 
 #navLinks {

@@ -183,6 +183,11 @@ nav * {
   height: 100%;
   font-family: "Commissioner", sans-serif;
   color: #D65A2E;
+  text-decoration: none;
+}
+
+#logo:hover {
+  color: #FFFFFF;
 }
 
 #navLinks {
