@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Commissioner&family=Source+Code+Pro&display=swap");
 .about__img {
   width: 56.65px;
-  height: 72px;
+  height: 62px;
 }
 .about__section {
   display: flex;
@@ -119,6 +119,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: space-evenly;
+}
+.experience__stack ul {
+  list-style-type: none;
 }
 .experience__button {
   display: block;
@@ -321,6 +324,9 @@ header {
   width: 50%;
   margin: 0 20px;
 }
+.projectA__stack ul {
+  list-style-type: none;
+}
 .projectA__buttons {
   display: flex;
   justify-content: space-around;
@@ -375,6 +381,9 @@ header {
   justify-content: space-around;
   width: 50%;
   margin: 0 20px;
+}
+.projectB__stack ul {
+  list-style-type: none;
 }
 .projectB__buttons {
   display: flex;
