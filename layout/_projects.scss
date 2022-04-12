@@ -1,10 +1,13 @@
 .projectA {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 90%;
     &__img {
-        width: 50%;
+        max-height: 600px;
+        max-width: 50%;
     }
     &__text {
         display: flex;
@@ -61,11 +64,15 @@
 
 .projectB {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 90%;
     &__img {
-        width: 50%;
+        max-width: 50%;
+        max-height: 400px;
     }
     &__text {
         display: flex;
@@ -123,6 +130,7 @@
 @media screen and (max-width:710px) {
     .projectA {
         flex-direction: column;
+        align-items: center;
     }
     .projectA__img {
             width: 100%;
@@ -148,6 +156,7 @@
     }
     .projectB {
         flex-direction: column-reverse;
+        align-items: center;
     }
     .projectB__img {
             width: 100%;

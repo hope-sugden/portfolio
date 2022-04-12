@@ -310,12 +310,15 @@ header {
 }
 .projectA {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 90%;
 }
 .projectA__img {
-  width: 50%;
+  max-height: 600px;
+  max-width: 50%;
 }
 .projectA__text {
   display: flex;
@@ -368,12 +371,16 @@ header {
 
 .projectB {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  align-items: center;
   margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 90%;
 }
 .projectB__img {
-  width: 50%;
+  max-width: 50%;
+  max-height: 400px;
 }
 .projectB__text {
   display: flex;
@@ -427,6 +434,7 @@ header {
 @media screen and (max-width: 710px) {
   .projectA {
     flex-direction: column;
+    align-items: center;
   }
 
   .projectA__img {
@@ -457,6 +465,7 @@ header {
 
   .projectB {
     flex-direction: column-reverse;
+    align-items: center;
   }
 
   .projectB__img {
